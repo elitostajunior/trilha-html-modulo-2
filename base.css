@@ -7,6 +7,23 @@ body {
     justify-content: center;
 }
 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table td {
+    width: 170px;
+}
+
+th {
+    background-color: #f0ffff;
+}
+
+tr:nth-child(even) {
+    background-color: #e0ffff;
+}
+
 .wrapper {
     width: 1200px;
     display: flex;
@@ -26,6 +43,8 @@ body {
 .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
+    display: flex;
+    justify-content: center;
 }
 .content {
     background-color: white;
