@@ -48,10 +48,12 @@ tr:nth-child(even) {
 }
 .content {
     background-color: white;
-    min-height: 300px;
+    min-height: 500px;
     padding: 20px;
 }
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
+    color: #ffffff;
+    text-align: center;
 }
